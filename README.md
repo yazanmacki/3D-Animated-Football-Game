@@ -14,3 +14,5 @@ If player turn, jumps to position chosen by player. Intitiates all goalkeeper's 
 
 MovePlayer.cs: Ball shooter controller. If CPU turn, kicks ball in random direction based on difficulty level. If player turn, kicks ball on a
 trajectory based on arrow direction and power level. Initiates all the player's running/kicking animations.
+
+GoalSensorCollision.cs: Gives points to player/CPU when ball crosses goal line.
