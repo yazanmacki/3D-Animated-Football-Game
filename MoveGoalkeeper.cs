@@ -61,9 +61,7 @@ public class MoveGoalkeeper : MonoBehaviour
         float xFinal = deltaZ * Mathf.Tan(rad);
 
         Debug.Log("Deg Y = " + GameObject.Find("Arrow").GetComponent<ArrowController>().rX);
-        Debug.Log("POWER = " + GameObject.Find("Arrow").GetComponent<ArrowController>().shotPowerMultiplier);
-
-        Debug.Log("ohmygawrd");
+        Debug.Log("POWER = " + GameObject.Find("Arrow").GetComponent<ArrowController>().shotPowerMultiplier); 
 
         if (GameObject.Find("Player").GetComponent<MovePlayer>().playerAboutToKick) {            
 
